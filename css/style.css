@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Roboto','Times New Roman', Times, serif;
+ 
+}
+
+
+.container{
+  display: block;
+  margin: 0 auto;
+  width: 95vw;
+}
+
+.hidden{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+}
+.data{
+  display: flex;
+  float: right;
+  gap: 10px;
+ }
+
+.form {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.ricos{
+  margin-top: 25px;
+}
+.assin{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  gap: 10px;
+}
+
+.form.tamanho1{
+  width: 300px;
+}
+.form.tamanho2{
+  width: 100px
+}
+li{
+  list-style: none;
+}
+
+@media print {
+  .quebra {
+    page-break-after: auto;
+ 
+  }
+  .btn .btn-primary{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
