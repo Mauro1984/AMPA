@@ -3,12 +3,10 @@
   padding: 0;
   box-sizing: border-box;
  font-family: 'Roboto','Times New Roman', Times, serif;
- 
+ font-size:10px;!important
 }
 
-html{
-font-size:12px;!important
-}
+
 .container{
   display: block;
   margin: 0 auto;
@@ -77,6 +75,13 @@ ul>li{
   display: block;
   opacity: 1;
   visibility: visible;
+}
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Roboto','Times New Roman', Times, serif;
+ font-size:10px;!important
 }
 
   .btn .btn-primary{
