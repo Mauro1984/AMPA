@@ -54,13 +54,17 @@ li{
 }
 
 @media print {
+
+.container{
+  width: 100vw;
+}
+
   .quebra {
-    page-break-after: auto;
+    page-break-after: page;
  
   }
   .btn .btn-primary{
     display: none;
-    visibility: hidden;
-    opacity: 0;
+   
   }
 }
