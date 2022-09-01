@@ -22,6 +22,7 @@ font-size:12px;!important
   width:793px;
   height:1122px;
   margin:0 auto;
+  margin-bottom: 50px;
 }
 
 .hidden{
@@ -32,7 +33,7 @@ font-size:12px;!important
 .logo{
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 120px;
 }
 .data{
   display: flex;
@@ -74,9 +75,7 @@ ul>li{
 html{
   font-size:12pt;
   }
-.container{
-  width: 100vw;
-}
+
 
   .btn .btn-primary{
     display: none;
