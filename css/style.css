@@ -82,6 +82,7 @@ ul>li{
   box-sizing: border-box;
  font-family: 'Roboto','Times New Roman', Times, serif;
  font-size:10px;!important
+     background-color:#ccc;
 }
 
   .btn .btn-primary{
