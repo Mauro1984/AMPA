@@ -61,6 +61,11 @@ li{
   list-style: none;
 }
 
+  .quebra {
+    page-break-after: page;
+ 
+  }
+
 @media print {
 html{
   font-size:12pt;
@@ -69,10 +74,6 @@ html{
   width: 100vw;
 }
 
-  .quebra {
-    page-break-after: page;
- 
-  }
   .btn .btn-primary{
     display: none;
    
