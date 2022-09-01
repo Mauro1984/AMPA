@@ -6,7 +6,9 @@
  
 }
 
-
+html{
+font-size:12px;!important
+}
 .container{
   display: block;
   margin: 0 auto;
@@ -19,6 +21,7 @@
 .a4{
   width:793px;
   height:1122px;
+  margin:0 auto;
 }
 
 .hidden{
@@ -29,6 +32,7 @@
 .logo{
   display: block;
   margin: 0 auto;
+  width: 150px;
 }
 .data{
   display: flex;
@@ -57,12 +61,12 @@
 .form.tamanho2{
   width: 100px
 }
-li{
+ul>li{
   list-style: none;
 }
 
   .quebra {
-    page-break-after: page;
+    page-break-after: all;
  
   }
 
