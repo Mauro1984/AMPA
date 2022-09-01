@@ -73,10 +73,16 @@ ul>li{
 
 @media print {
 
-
+.hidden{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
 
   .btn .btn-primary{
     display: none;
+    opacity: 0;
+    visibility: hidden;
    
   }
 }
