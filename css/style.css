@@ -72,9 +72,7 @@ ul>li{
   }
 
 @media print {
-html{
-  font-size:12pt;
-  }
+
 
 
   .btn .btn-primary{
